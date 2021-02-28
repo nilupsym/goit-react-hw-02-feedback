@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/FeedbackOptions/FeedbackOptions.module.css"],"names":[],"mappings":"AAAA,iCACE,YAAa,CACb,eAAgB,CAChB,SACF,CAEA,4CACE,iBACF","file":"main.86a2198b.chunk.css","sourcesContent":[".feedback {\r\n  display: flex;\r\n  list-style: none;\r\n  padding: 0;\r\n}\r\n\r\n.li:not(:last-child) {\r\n  margin-right: 10px;\r\n}\r\n"]}
