@@ -7,3 +7,17 @@
 .li:not(:last-child) {
   margin-right: 10px;
 }
+
+.btn {
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background-color: rgb(172, 211, 211);
+  padding: 10px;
+  transition: background-color 250ms ease;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(46, 28, 112);
+  color: #fff;
+}
