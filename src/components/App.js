@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import AppHooks from './AppHooks';
 import Statistics from './Statistics';
 import FeedbackOptions from './FeedbackOptions';
 import Section from './Section';
@@ -21,6 +22,7 @@ class App extends Component {
     render() {
         const { good, neutral, bad } = this.state;
         return (
+            <>
             <Section title='Please leave feedback'>
                 <FeedbackOptions
                     options={['good', 'neutral', 'bad']}
@@ -31,7 +33,10 @@ class App extends Component {
                     bad={bad}
                     total={this.countTotalFeedback()}
                     positivePercentage={this.countPositiveFeedbackPercentage()} />
-            </Section>    
+                </Section>
+                <AppHooks />
+            </>    
     )}
 }
 export default App;
+   
